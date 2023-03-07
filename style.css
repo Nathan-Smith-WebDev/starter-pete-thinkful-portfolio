@@ -76,3 +76,48 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.group-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group {
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+
+}
+
+.left {
+ text-align: left;
+}
+
+.group-column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+ .item {
+ 
+  flex: 1;
+
+}
+.project-description {
+  font-size: 14px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  align-items:top;
+}
+
+.top-pad {
+  padding-top: 14px;
+}
+.double-top-pad {
+  padding-top: 42px;
+}
